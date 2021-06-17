@@ -1,0 +1,23 @@
+name: env_portfolio_modeling
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - setuptools
+  - wheel
+  - invoke
+  - notebook
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - ipywidgets
+  - numpy
+  - matplotlib
+  - papermill
+  - pandas
+  - scikit-learn
+  - scipy
+  - pip
+  - pip:
+      - -e .
+      - python-dotenv>=0.5.1
